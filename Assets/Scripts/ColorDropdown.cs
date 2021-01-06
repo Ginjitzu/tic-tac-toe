@@ -10,8 +10,8 @@ public class ColorDropdown : MonoBehaviour {
     private Text _text;
     private Image _arrow;
     
-    private LogicManager _logic_manager;
-    public void SetLogicManager(LogicManager logic_manager) { this._logic_manager = logic_manager; }
+    private GameStateManager _logic_manager;
+    public void SetLogicManager(GameStateManager logic_manager) { this._logic_manager = logic_manager; }
 
     public void SetColourScheme (Scheme scheme)
     {

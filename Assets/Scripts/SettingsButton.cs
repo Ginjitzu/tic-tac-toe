@@ -7,8 +7,8 @@ public class SettingsButton : MonoBehaviour {
 
     public Button button;
 
-    private LogicManager _logic_manager;
-    public void SetSceneManager(LogicManager logic_manager) { this._logic_manager = logic_manager; }
+    private GameStateManager _logic_manager;
+    public void SetSceneManager(GameStateManager logic_manager) { this._logic_manager = logic_manager; }
 
     public void SetColourScheme (Scheme scheme)
     {

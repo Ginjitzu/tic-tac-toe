@@ -42,7 +42,7 @@ namespace Mirror.Examples.Chat
             // set it as the player
             NetworkServer.AddPlayerForConnection(connection, playergo);
 
-            chatWindow.gameObject.SetActive(true);
+            chatWindow.gameObject.SetActive(false);
         }
     }
 }

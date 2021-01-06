@@ -10,7 +10,7 @@ public class GridButton : MonoBehaviour {
 
     // Private attributes.
     private Text _text;
-    private LogicManager _logic_manager;
+    private GameStateManager _logic_manager;
 
     // Public abilities.
     public void Awake()
@@ -22,7 +22,7 @@ public class GridButton : MonoBehaviour {
 
     public string GetText() { return this.GetComponentInChildren<Text>().text; }
 
-    public void SetLogicManager(LogicManager logic_manager) { this._logic_manager = logic_manager; }
+    public void SetLogicManager(GameStateManager logic_manager) { this._logic_manager = logic_manager; }
 
     public void SetColourScheme (Scheme scheme)
     {

@@ -13,7 +13,7 @@ public class InfoButton : MonoBehaviour {
 
     // A reference to the LogicManager is needed to call it's public functions when the button is clicked.
     // This reference needs to be set by the LogicManager itself.
-    private LogicManager _logic_manager;
+    private GameStateManager _logic_manager;
 
     // Public abilities.
     public void Awake()
@@ -21,7 +21,7 @@ public class InfoButton : MonoBehaviour {
         _text = GetComponentInChildren<Text>();
     }
 
-    public void SetLogicManager (LogicManager logic_manager)
+    public void SetLogicManager (GameStateManager logic_manager)
     {
         this._logic_manager = logic_manager;
     }
